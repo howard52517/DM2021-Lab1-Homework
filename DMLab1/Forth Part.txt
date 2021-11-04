@@ -1,0 +1,10 @@
+處理遺失值:
+除了直接drop掉之外，還可以fillna()特定的值，避免浪費資料。
+
+作圖也可以用
+plt.hist()
+
+類別變數轉換成binary code與one hot encode有相同效果，
+不過one hot encode需要先將變數轉換成string才能encode
+比較麻煩一點，不過如果不需要將此變數套入模型，
+其實不用特別轉換
